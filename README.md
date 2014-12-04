@@ -11,7 +11,7 @@ Include below css file in your ```<head>``` section
 
 1. ```<link href="css/weather-widget.css" rel="stylesheet" type="text/css" /></code>```
 
-In options you can define location code provided by yahoo weather, unit 'c' for Celcius and 'f' for , loadingtxt to show some text while data is loading. Few sample location codes are as below:-
+In options you can define location code provided by yahoo weather, unit 'c' for Celsius and 'f' for Fahrenheit, loadingtxt to show some text while data is loading. Few sample location codes are as below:-
 
 New Delhi, IN - INXX0096
 
