@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Weather Widget</title>
+<link href="css/weather-widget.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="weatherWidget" id="weatherWidget">
+</div>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/weather-widget.js"></script>
+<script>
+// New Delhi, IN - INXX0096
+// Gurgaon, IN - INXX0342
+// London, UK - UKXX0085
+// McLean, VA - 22102
+// New York, USA - USNY0996
+$(document).ready(function(e) {
+    $('#weatherWidget').weatherWidget({
+		location: '22102',
+		unit: 'f',
+		loadingtxt: 'Please wait while loading...'
+	});
+});
+</script>
+</body>
+</html>

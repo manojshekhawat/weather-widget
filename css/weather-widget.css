@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document for weather widget
+   Author - Manoj Kumar Shekhawat
+   http://www.manojshekhawat.com */
+
+body {background:#d0ccc7;}
+.blk{display:block; zoom:1;}
+.blk:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden; zoom:1;}
+
+.weatherWidget {width:290px; height:140px; position:absolute; top:50%; left:50%; margin:-80px 0 0 -155px; background:#fff; border:1px solid #94918c; box-shadow:5px 5px 10px #666; border-radius:10px; padding:10px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px;}
+.weatherWidget .weatherLoading {text-align:center; vertical-align:middle; height:140px; line-height:120px;}
+.weatherWidget h2 {font-size:20px; padding:0; margin:0;}
+.weatherWidget .currtemp {margin-bottom:10px;}
+.weatherWidget .temprature {float:left; margin-right:10px; font-size:60px; font-weight:bold;}
+.weatherWidget .temprature sup {font-size:28px;}
+.weatherWidget .condition {float:left; text-align:center; line-height:18px;}
+.weatherWidget .forcast, .weatherWidget .forcast li {margin:0; padding:0; list-style:none;}
+.weatherWidget .forcast li {display:inline-block; text-align:center; width:19%; font-size:11px; font-weight:bold; border-right:1px dotted #94918c; line-height:18px;}
+.weatherWidget .forcast li span {display:block; font-size:13px;}
+.weatherWidget .forcast li:first-child {padding-left:0;}
+.weatherWidget .forcast li:last-child {padding-right:0; border:0;}
+
