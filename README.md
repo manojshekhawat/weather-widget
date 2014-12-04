@@ -14,9 +14,13 @@ Include below css file in your ```<head>``` section
 In options you can define location code provided by yahoo weather, unit 'c' for Celcius and 'f' for , loadingtxt to show some text while data is loading. Few sample location codes are as below:-
 
 New Delhi, IN - INXX0096
+
 Gurgaon, IN - INXX0342
+
 London, UK - UKXX0085
+
 McLean, VA - 22102
+
 New York, USA - USNY0996
 
 Include below JS files and code snipt just above the closing body tag
